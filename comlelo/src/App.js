@@ -1,9 +1,10 @@
-import "./App.css";
+import Book from "./Book";
+import BookList from "./BookList";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hi......................comlelo</h1>
+    <div>
+      <BookList Book={Book} />
     </div>
   );
 }
